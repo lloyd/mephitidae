@@ -1,0 +1,3 @@
+[submodule "chromeless"]
+	path = chromeless
+	url = git://github.com/mozilla/chromeless
