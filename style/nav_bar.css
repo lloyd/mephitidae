@@ -1,0 +1,97 @@
+#nav_buttons {
+  height: 40px;
+  width: 65px;
+  position: relative;
+}
+
+#nav_boxes {
+  -moz-box-flex: 1;
+  width:100%;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+}
+
+#back_button {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  width: 25px;
+  height: 30px;  
+  background-image: url(img/back_button.png);
+}
+
+#overlap_button {
+  position: absolute;
+  top: 8px;
+  left: 31px;
+  width: 7px;
+  height: 24px;  
+  background-image: url(img/shared_button.png);
+}
+
+#forward_button {
+  position: absolute;
+  top: 9px;
+  left: 38px;
+  width: 24px;
+  height: 22px;  
+  background-image: url(img/forward_button.png);
+}
+
+#url_box {
+  -moz-box-flex: 3;
+  height: 40px;
+}
+
+#search_box {
+  -moz-box-flex: 1;
+  height: 18px;
+}
+
+#bookmark_box {
+  width: 45px;
+  height: 40px;
+}
+
+#home_box {
+  width: 37px;
+  height: 40px;
+}
+
+#home_container {
+  border: 1px solid #666;
+  -moz-border-radius:3px;
+  background: url(img/home.png);
+  height: 20px;
+  width:  24px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+#bookmark_container {
+  border: 1px solid #666;
+  -moz-border-radius:3px;
+  background: url(img/bookmarks.png);
+  height: 20px;
+  width:  36px;
+  margin-top: 9px;
+  margin-left: 3px;
+}
+
+#url_container {
+  border: 1px solid #666;
+  -moz-border-radius:4px;
+  background-color:#fff;
+  height: 20px;
+  margin-top: 9px;
+}
+
+#search_container {
+  border: 1px solid #666;
+  -moz-border-radius:10px;
+  background-color:#fff;
+  height: 20px;
+  margin-top: 9px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
