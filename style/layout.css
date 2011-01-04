@@ -11,13 +11,15 @@ body {
 
 #tab_chrome_strip {
   height: 24px;
-  background-image: url(img/tab_chrome_gradient.png);
+  background-image: url(../img/tab_chrome_gradient.png);
   background-repeat: repeat-x;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
 }
 
 #nav_chrome_strip {
   height: 40px;
-  background-image: url(img/nav_chrome_gradient.png);
+  background-image: url(../img/nav_chrome_gradient.png);
   background-repeat: repeat-x;
   width: 100%;
   display: -moz-box;
