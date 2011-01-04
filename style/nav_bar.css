@@ -95,3 +95,17 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+
+#current_url {
+  font-family: Lucida Grande;
+  font-size: 12;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+#current_url > input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 100%;
+}

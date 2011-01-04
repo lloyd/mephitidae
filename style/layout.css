@@ -27,8 +27,15 @@ body {
 }
 
 #browser_content_area {
-  background: #fff;
+  background: red;
   -moz-box-flex: 1;
-  display: -moz-box;
+  display: -moz-box; 
+  width: 100%;
 }
 
+#browser_content_area > iframe {
+  border: 0;
+  width: 100%;
+  background-color: purple;
+  -moz-box-flex: 1;
+}
