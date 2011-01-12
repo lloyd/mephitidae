@@ -17,5 +17,5 @@ weight, they differ in several very important ways.
     $ git clone <this repo>/mephitidae
     $ cd mephitidae
     $ git submodule init && git submodule update
-    $ chromeless/chromeless .
+    $ chromeless/chromeless src
 
